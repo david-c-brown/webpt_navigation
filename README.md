@@ -2,7 +2,7 @@
 Navigating WebPT with Selenium to gather visit volume accurately
 
 ## problem:
-1. WebPT analytics is slow, and occasionally inaccurate, and doesn't report visits under a certain threshold of fields log (and that threshold seems to differ). To maintain an adequate real time understanding of our clinic's performance, we need to all visit information to be as accurate and as up to date as possible. 
+1. WebPT analytics is slow, and occasionally inaccurate, and doesn't report visits under a certain threshold of fields logged (and that threshold seems to differ). To maintain an adequate real time understanding of our clinic's performance, we need  all visit information to be as accurate and as up to date as possible. 
 1a. doing this by hand is a minimum 3 hour long process, that is highly susceptible to human error. Often it takes longer and the longer it takes the more likely errors are made.
 2. WebPT has a 2 stage login, and injects schedule events through Javascript, so using bs4 is out of the question despite being the faster method otherwise.
 3. WebPT fails to load items about 20% of the time on a new calendar. It also fails to read when a checkbox is clicked 10% of the time.
