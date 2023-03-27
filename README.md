@@ -13,8 +13,8 @@ Navigating WebPT with Selenium to gather visit volume accurately
 3. Overengineer checkbox clicking.
 
 ## process:
-* First iteration: Initialize driver, by hand run 2 functions to get the count, copy the output into the main worksheet.
-* Second: build out the backward > forward > forward navigation and copy that over
+* First iteration: Initialize driver, by hand run 2 functions to get the count, copy the output into the main worksheet. repeat n of week * n of pt per clinic * n of clinics
+* Second: build out the backward > forward > forward navigation and copy that over repeat n of pt per clinic * n of clinics
 * Third: becomes what we see now. 
 * Next: figure out an accurate method of gauging utilization. For now, the PTO counter is my reminder to double check their availablity, but the weaknesses of this approach are just barely above nothing.
 
